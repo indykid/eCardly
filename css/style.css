@@ -1,0 +1,149 @@
+/*
+Project Name: Ecard.ly
+Client: General Assembly
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/* Box Model Hack - to define the total width of the object*/
+* /* *applies style to every element on the page */{
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack - for divs to include floating children elements
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}*/
+
+.clear /* using this instead of Clear fix hack because we have existing elements we can use to clear */ {
+     clear: both;
+     }
+
+
+
+#logo {
+     background: url(../images/logo.png) no-repeat;
+     height: 213px;
+     width: 217px;
+     margin: 20px auto;
+     text-indent: -100%;
+     overflow: hidden;
+     white-space: nowrap;
+     }
+
+body {
+     background: #d6d6d6 url('../images/background.jpg') repeat-x;
+     }
+
+
+#container {
+     margin: auto;
+     width: 940px;
+     }
+
+#content {
+     float: left;
+     width: 640px;
+     background: white;
+     padding: 30px 20px;
+     }
+
+#content h2 {
+     margin-top: 0;
+     font-size: 20px;
+     }
+
+#content img {
+     width: 600px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+     }
+
+#content p {
+     font-size: 12px;
+     line-height: 1.5;
+     /*font:75%/1.4 Helvetica, Arial, sans-serif;*/
+     }
+
+#content a {
+     text-decoration: none;
+     color: red;
+     font-weight: bold;
+     }
+
+article {
+     padding-bottom: 40px;
+     }
+
+
+.credits {
+     padding: 7px 0;
+     border-bottom: 1px solid;
+     border-top: 1px dotted;
+     }
+
+
+#sidebar {
+     float: right;
+     width: 280px;
+     background: white;
+     margin: 0;
+     padding: 25px;
+     font-size: 12px;
+     line-height: 1.75;
+     }
+
+#sidebar h3 {
+     text-transform: uppercase;
+     margin: 0;
+     }
+
+#sidebar ul,
+#sidebar ol {
+     margin: 0;
+     padding-left: 0;
+     list-style: none;
+     padding-bottom: 20px;
+     }
+
+#sidebar a {
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+     }
+
+.ads img {
+     padding-bottom: 20px;
+     }
+
+footer {
+     text-align: center;
+     padding: 50px;
+     clear: both;
+     }
+
+footer ul {
+     list-style: none;
+
+}
+
+footer li {
+     display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
